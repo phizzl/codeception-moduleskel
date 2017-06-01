@@ -1,0 +1,1 @@
+Just a skeleton for a Codeception module
