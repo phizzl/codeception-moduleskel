@@ -5,10 +5,12 @@ namespace Phizzl\Codeception\Modules;
 
 
 use Codeception\Exception\ModuleException;
+use Codeception\Lib\ModuleContainer;
 use Codeception\Module;
 
 /**
  * @mixin Module
+ * @property ModuleContainer $moduleContainer
  */
 trait CallCrossModuleMethodsTrait
 {

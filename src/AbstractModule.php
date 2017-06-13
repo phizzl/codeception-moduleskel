@@ -10,4 +10,5 @@ use Codeception\Module;
 abstract class AbstractModule extends Module
 {
     use CallCrossModuleMethodsTrait;
+    use GetConfigTrait;
 }
