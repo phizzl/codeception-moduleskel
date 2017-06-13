@@ -5,7 +5,6 @@ namespace Phizzl\Codeception\Modules;
 
 
 use Codeception\Exception\ModuleException;
-use Codeception\Lib\ModuleContainer;
 use Codeception\Module;
 
 /**
@@ -13,11 +12,6 @@ use Codeception\Module;
  */
 trait CallCrossModuleMethodsTrait
 {
-    /**
-     * @var ModuleContainer
-     */
-    protected $moduleContainer;
-
     /**
      * @param string $name
      * @param array $arguments
